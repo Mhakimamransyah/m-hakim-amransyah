@@ -1,0 +1,18 @@
+<style>
+
+
+	.w3-quarter:hover{
+		cursor: pointer;
+		border-style: dashed;
+	}
+
+	.myTile{
+       font-size: 67px;
+       padding-top: 20px;
+       padding-bottom: 10px;
+	}
+
+	.w3-quarter{
+       width: 19.99999%;
+	}
+</style>

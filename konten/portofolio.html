@@ -1,0 +1,81 @@
+<div class="card border-info" id="resume">
+   <div class="card-header border-info">
+      <h2 style="font-family: fantasy;
+         font-variant: petite-caps;
+         font-size: 61px;">Porto<span style="color: blueviolet;
+    text-decoration: underline;">folio</span></h2>
+   </div>
+   <div class="row">
+      <div class="col-12">
+         <div class="card-body">
+           <blockquote class="blockquote mb-0">
+            <p class="card-text" style="font-family: inherit;font-size: 16px;text-align: justify;">Perkenalkan, nama saya M.Hakim Amransyah biasa dipanggil Hakim. Saya
+               merupakan salah satu mahasiswa strata-1 jurusan Teknik Informatika reguler
+               di Universitas Sriwijaya. Selama mengikuti kegiatan perkuliahan, saya telah
+               mengembangkan beberapa macam perangkat lunak baik yang dikembangkan
+               secara sendiri maupun berkelompok. Pada portofolio ini, saya akan
+               memberikan gambaran ringkas beberapa perangkat lunak yang telah saya
+               buat. Untuk lebih detil dapat dilihat di repository github saya.
+            </p>
+            <a href="https://github.com/Mhakimamransyah" target="_blank"><span class="chip"><img style="width: 37px" alt="Chip Image" class="chip-img" src="https://media.giphy.com/media/WvXuLOqJeJ0I0/giphy.gif">Repository Github Saya</span></a>
+         </div>
+      </div>
+   </div>
+</div>
+<div ng-repeat="projek in data track by $index" ng-init="index_projek = $index">
+   <br>
+   <div class="card border-info" style="padding: 22px;">
+      <div class="row">
+
+         <div class="col-sm-4">
+          <div id="carouselExampleControls{{ index_projek }}" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                     <div ng-repeat="img in projek.foto track by $index" ng-init="index_foto = $index" class="carousel-item {{ isFirst(index_foto) }}">
+
+                      <img  ng-click="showImage(img)" class="d-block w-100" src="assets/{{img}}" alt="First slide" style="height: 257px;">
+
+                     </div>
+               </div>
+
+               <a class="carousel-control-prev" target="_self" href="#carouselExampleControls{{ index_projek }}" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" target="_self" href="#carouselExampleControls{{ index_projek }}" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-sm-8">
+            <div class="card border-info">
+               <div class="card-header border-info">
+                  {{ projek.keterangan }}
+               </div>
+               <div class="card-body">
+                  <h5 class="card-title">{{ projek.judul }}</h5>
+                  <p class="card-text" style="text-align: justify;">{{ projek.deskripsi }}</p>
+                  <a href="{{ projek.url }}" target="_blank"><span class="chip"><img style="width: 37px" alt="Chip Image" class="chip-img" src="https://media.giphy.com/media/WvXuLOqJeJ0I0/giphy.gif">lihat Repository</span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="margin-right: 390px;">
+    <div class="modal-content">
+      <img id="image_modal" src="" style="width: 1000px;">
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+   .styleText{
+   text-align: justify;
+   height: 70px;
+   overflow: hidden;
+   }
+</style>
