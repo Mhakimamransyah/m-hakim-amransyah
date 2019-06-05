@@ -64,6 +64,14 @@ app.controller("portofolio",["$scope",'$rootScope','browserService','$state',fun
          deskripsi  : 'Aplikasi ini digunakan sebagai proyek penelitian. Aplikasi ini bertujuan untuk mengukur keakuratan metode jaringan syaraf tiruan (BP) untuk klasifikasi plat kendaraan berdasarkan gambar plat kendaraan dari hasil segmentasi karakter menggunakan profile projection.',
          foto  :['pelatihan_ocr.jpg','pengujian_ocr.jpg'],
          url   : 'https://github.com/Mhakimamransyah/ocr'
+      },
+      {
+         id    : 6,
+         judul : "APLIKASI DATA MINING MENGGUNAKAN NAIVE BAYES DAN C4.5 UNTUK KLASIFIKASI",
+         keterangan : "Dekstop | Java, MySQL",
+         deskripsi : 'Aplikasi ini juga digunakan untuk keperluan proyek penelitian mahasiswa. Aplikasi ini bertjuan untuk mengukur keakuratan algoritma klasifikasi Naive Bayes dan C4.5 untuk mengklasifikasikan data. Data yang digunakan bisa apa saja tidak terikat dengan objek tertentu.',
+         foto  :['nbc45.jpg'],
+         url   : 'https://github.com/Mhakimamransyah/nb-c45'
       }
    ];
 }])
