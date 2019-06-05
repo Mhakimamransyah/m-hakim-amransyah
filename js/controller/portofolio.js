@@ -56,6 +56,13 @@ app.controller("portofolio",["$scope",'$rootScope','browserService','$state',fun
         deskripsi  : 'Aplikasi ini juga bagian dari proyek saya yang berfokus untuk mengerjakan aplikasi untuk penelitian. Aplikasi ini bekerja dengan memanfaatkan data historis penederita TB(tuberkolosis) yang telah diinputkan sebelumnya kemudian aplikasi akan melakukan peramalan penederita TB tahun berikutnya. Sebagaimana penelitian , aplikasi ini bertujuan untuk mengukur tingkat keakuratan metode fuzzy time series dalam meramalkan tingkat penderita TB.',
         foto       : ['halaman_peramalan_TB.jpg','halaman_jumlah_penederita_TB.jpg'],
         url        : 'https://github.com/azhry/tb-fts'
+      },
+      {
+         id    : 5,
+         judul : "OPTICAL CHARACTER RECOGNITION(OCR) DENGAN BACKPROPAGATION(BP) DAN PROFILE PROJECTION PADA KARAKTER PLAT KENDARAAN",
+         keterangan : 'Aplikasi ini digunakan sebagai proyek penelitian. Aplikasi ini bertujuan untuk mengukur keakuratan metode jaringan syaraf tiruan (BP) untuk klasifikasi plat kendaraan berdasarkan gambar plat kendaraan dari hasil segmentasi karakter menggunakan profile projection.',
+         foto  :['pelatihan_ocr.jpg','pengujian_ocr.jpg'],
+         url   : 'https://github.com/Mhakimamransyah/ocr'
       }
    ];
 }])
