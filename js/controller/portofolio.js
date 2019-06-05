@@ -61,7 +61,7 @@ app.controller("portofolio",["$scope",'$rootScope','browserService','$state',fun
          id    : 5,
          judul : "OPTICAL CHARACTER RECOGNITION(OCR) DENGAN BACKPROPAGATION(BP) DAN PROFILE PROJECTION PADA KARAKTER PLAT KENDARAAN",
          keterangan : "Dekstop | Java",
-         keterangan : 'Aplikasi ini digunakan sebagai proyek penelitian. Aplikasi ini bertujuan untuk mengukur keakuratan metode jaringan syaraf tiruan (BP) untuk klasifikasi plat kendaraan berdasarkan gambar plat kendaraan dari hasil segmentasi karakter menggunakan profile projection.',
+         deskripsi  : 'Aplikasi ini digunakan sebagai proyek penelitian. Aplikasi ini bertujuan untuk mengukur keakuratan metode jaringan syaraf tiruan (BP) untuk klasifikasi plat kendaraan berdasarkan gambar plat kendaraan dari hasil segmentasi karakter menggunakan profile projection.',
          foto  :['pelatihan_ocr.jpg','pengujian_ocr.jpg'],
          url   : 'https://github.com/Mhakimamransyah/ocr'
       }
