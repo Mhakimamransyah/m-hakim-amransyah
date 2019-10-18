@@ -30,7 +30,7 @@ app.controller("portofolio",["$scope",'$rootScope','browserService','$state',fun
       	judul : "PLATFORM VOTING ONLINE SEDERHANA (TOUCH 2 VOTE)",
         keterangan : "Web & Android | PHP, Codeiginiter, HTML, JavaScript, CSS, MySQL, Android, REST API",
         deskripsi  : 'Sistem ini adalah sebuah perangkat lunak berbasiskan Web dan Mobile(Android) yang saya kerjakan untuk memenuhi permintaan client untuk tugas kuliah. Sistem ini memungkinkan admin untuk membuat objek untuk dilakukannya sebuah voting dan mengelola daftar pemilih tetap peserta voting. Backend dari sistem ini menggunakan Codeiginter dengan bantuan library untuk membuat API sedangkan front end menggunakan Android Native dan Codeigniter di sisi web',
-        foto       : ['List_activity.jpg','DPT_Voting.jpg','Home_admin.jpg','Home_admin2.jpg','kelola_objek.jpg'],
+        foto       : ['List_acitivity.jpg','DPT_Voting.jpg','Home_admin.jpg','Home_admin2.jpg','kelola_objek.jpg'],
         url        : ''
       },
       {
