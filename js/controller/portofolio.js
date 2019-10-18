@@ -17,20 +17,20 @@ app.controller("portofolio",["$scope",'$rootScope','browserService','$state',fun
    }
 
    $scope.data = [
-       {
-      	id    : 0,
-      	judul : "PLATFORM VOTING ONLINE SEDERHANA (TOUCH 2 VOTE)",
-        keterangan : "Web & Android | PHP, Codeiginiter, HTML, JavaScript, CSS, MySQL, Android, REST API",
-        deskripsi  : 'Sistem ini adalah sebuah perangkat lunak berbasiskan Web dan Mobile(Android) yang saya kerjakan untuk memenuhi permintaan client untuk tugas kuliah. Sistem ini memungkinkan admin untuk membuat objek untuk dilakukannya sebuah voting dan mengelola daftar pemilih tetap peserta voting. Backend dari sistem ini menggunakan Codeiginter dengan bantuan library untuk membuat API sedangkan front end menggunakan Android Native dan Codeigniter di sisi web',
-        foto       : ['Home.jpg','Voting.jpg','Detail2.jpg','DPT_Voting.jpg','Home_admin.jpg','Home_admin2.jpg','kelola_objek.jpg','Login_android.jpg'],
-        url        : ''
-      },
       {
-      	id    : 1,
+      	id    : 0,
       	judul : "SISTEM PERMINTAAN ORDER KERJA TRANSPORTASI",
         keterangan : "Web | PHP, Codeiginiter, HTML, JavaScript, CSS, MySQL",
         deskripsi  : 'Sistem permintaan order kerja transportasi (SIPOK_T) adalah suatu sistem informasi yang saya kembangkan bersama dengan kedua teman saya pada saat kami mengikuti kegiatan kerja praktik di PT PUPUK SRWIDJAJA. Sistem ini digunakan oleh departemen ( sarana dan umum ) untuk memudahkan aktivitas mereka dalam mengelola permintaan perbaikan kendaraan yang berada di lingkungan PT PUPUK SRWIDJAJA. Sistem ini kami kembangkan sebagai bagian dari aktivitas kami selama mengikuti kegiatan kerja praktik di PT PUPUK SRIWIDJAJA. Sistem ini memiliki dua jenis user yaitu operator departemen (sarana dan umum) dan unit kerja lain yang ada di PT PUPUK SRIWIDJAJA.',
         foto       : ['halaman_login.jpg','halaman_dashboard.jpg','halaman_dashboard_unit_kerja.jpg'],
+        url        : ''
+      },
+       {
+      	id    : 1,
+      	judul : "PLATFORM VOTING ONLINE SEDERHANA (TOUCH 2 VOTE)",
+        keterangan : "Web & Android | PHP, Codeiginiter, HTML, JavaScript, CSS, MySQL, Android, REST API",
+        deskripsi  : 'Sistem ini adalah sebuah perangkat lunak berbasiskan Web dan Mobile(Android) yang saya kerjakan untuk memenuhi permintaan client untuk tugas kuliah. Sistem ini memungkinkan admin untuk membuat objek untuk dilakukannya sebuah voting dan mengelola daftar pemilih tetap peserta voting. Backend dari sistem ini menggunakan Codeiginter dengan bantuan library untuk membuat API sedangkan front end menggunakan Android Native dan Codeigniter di sisi web',
+        foto       : ['List_activity.jpg','DPT_Voting.jpg','Home_admin.jpg','Home_admin2.jpg','kelola_objek.jpg'],
         url        : ''
       },
       {
