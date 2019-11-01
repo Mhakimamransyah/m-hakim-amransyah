@@ -12,6 +12,10 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
                     url: "/portofolio",
                     templateUrl: "konten/portofolio.html",
                     controller: "portofolio"
+        }).state('p_folio', {
+                    url: "/p_folio",
+                    templateUrl: "konten/portofolio.html",
+                    controller: "portofolio"
         }).state('notification', {
                     url: "/notification",
                     templateUrl: "konten/notification.html",
